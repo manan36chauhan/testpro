@@ -1,4 +1,3 @@
-// Import necessary libraries for form handling and validation
 import React, {useState} from 'react';
 import {View, TextInput, Button, Alert} from 'react-native';
 
