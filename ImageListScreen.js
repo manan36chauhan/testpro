@@ -18,7 +18,6 @@ const ImageListScreen = ({navigation}) => {
   }, []);
 
   const fetchData = async () => {
-    // const url = 'https://picsum.photos/v2/list?page=1&limit=5'; // Removed space in URL
     const url = 'https://dev3.xicom.us/xttest/getdata.php';
     try {
       let formdata = new FormData();
@@ -79,7 +78,7 @@ const ImageListScreen = ({navigation}) => {
         ))}
       </ScrollView>
 
-      {/* Corrected the onPress event */}
+      
       <Button title="Load more" onPress={() => loadMoreImages()} />
     </View>
   );
